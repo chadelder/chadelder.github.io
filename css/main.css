@@ -29,12 +29,10 @@
 }
 
 /*colunm 1*/
-.ehometextcolor {
-  color: black;
-}
 
 .col-md-3 {
   text-align: center;
+  color: black;
 }
 
 .euler {
