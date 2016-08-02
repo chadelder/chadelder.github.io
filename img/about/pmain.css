@@ -1,0 +1,61 @@
+body {
+  background-image: url("two.jpg");
+  background-position: top;
+  background-size: 120%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  padding-top: 30px;
+}
+
+.me {
+  display: block;
+  margin: 0 auto;
+  width: 65%;
+  height: auto;
+  border-radius: 20px;  
+}
+
+.jobs {
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+li {
+  list-style-type: none;
+  color: black;
+  text-align: center;
+}
+
+.historytitle {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.historytitle b {
+  font-family: fantasy;
+  font-size: 35px;
+  color: deepskyblue;
+}
+
+.fresno {
+  display: table;
+  width: 60%;
+  height: 250px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+p {
+  color: black;
+}
+
+.padding {
+  padding-top: 10px;
+}

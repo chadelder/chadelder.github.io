@@ -1,0 +1,335 @@
+/* Index Page */
+.blackbackground {
+  background-position: top;
+  background-size: 222%;
+}
+
+/* Home Page */
+.background {
+  background-position: top;
+  background-size: 60%;
+}
+
+.background h1 {
+  text-align: center;
+  color: dimgray;
+  font-family: optima;
+}
+
+.swonderpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 40%;
+}
+
+.row {
+  padding-top: 35px;
+}
+
+/*colunm 1*/
+.ehometextcolor {
+  color: black;
+}
+
+.col-md-3 {
+  text-align: center;
+}
+
+.euler {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  max-width: 100%;
+  width: 35%;
+}
+div p {
+  color: black;
+  font-size: 13px;
+}
+
+#alittle {
+  font-size: 15px;
+  color: black;
+}
+
+/*column 2*/
+
+.bike {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  max-width: 100%;
+  width: 49%;
+}
+
+#bills {
+  font-size: 15px;
+  color: black;
+}
+
+/*column 3*/
+.frequency {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 43%;
+}
+
+#playit {
+  font-size: 15px;
+  color: black;
+}
+
+/*column 4*/
+.radial {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  max-width: 100%;
+  width: 35%;
+}
+
+#miles {
+  font-size: 15px;
+  color: black;
+}
+
+#footerWrapper {
+  background-color: black;
+}
+
+.textcenter {
+  display: inline;
+}
+
+.footerheight {
+  padding-top: 20px;
+}
+
+
+.ul1 {
+  list-style-type: none;
+  margin-right: 3%;
+}
+
+.li1 {
+  display: inline;
+  padding:0px;
+}
+
+/*Engineerd*/
+.lightimage {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    opacity: 0.9;
+}
+
+.caption {
+  position: absolute;
+  top: 83%;
+  width: 50%;
+  right: 5px;
+}
+
+.textcolor {
+  color: black;
+  right: auto;
+}
+
+.etextcolor {
+  color: dimgray;
+}
+
+.ecolumncolor {
+  color: dimgray;
+  padding-top: 15px;
+}
+
+.binarysizing {
+    z-index: 100;
+    width: 38%;
+}
+
+.bikelayoutsizing {
+  z-index: 100;
+  width: 43%;
+}
+
+.timeclocksizing {
+  z-index: 100;
+  width: 42%;
+}
+
+.patina {
+  z-index: 100;
+  width: 41%;
+}
+
+.animate-show {
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+    opacity: .5;
+}
+
+.animate-show.ng-hide-add,
+.animate-show.ng-hide-remove {
+    display: inline-block !important;
+
+}
+.animate-show.ng-hide {
+    opacity: 0;
+}
+
+/*About*/
+img {
+  width: 100%;
+  height: auto;
+}
+
+.rowleft {
+  padding-top: 30px;
+
+}
+
+.paddingimage {
+  padding-left: 10px;
+}
+
+.me {
+  display: block;
+  margin: 0 auto;
+  width: 65%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.jobs {
+  padding-top: 15px;
+  padding-left: 155px;
+  color: dimgray;
+}
+
+.historytitle {
+  text-align: center;
+  font-size: 20px;
+  color: dimgray;
+}
+
+.historytitle b {
+  font-family: fantasy;
+  font-size: 35px;
+  color: deepskyblue;
+}
+.describe {
+  color: dimgray;
+  font-size: 15px;
+}
+
+.fresno {
+  display: table;
+  width: 55%;
+  height: 250px;
+  border-radius: 30px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.padding {
+  padding-top: 40px;
+  color: dimgray;
+  font-size: 15px;
+}
+
+/*The Distance*/
+.textdistance {
+  font-family: papyrus;
+  color: blue;
+}
+
+.textblue {
+  color: blue;
+  font-family: papyrus;
+  font-size: 20px;
+}
+
+.thedpcolor {
+  color: #a6a6a6;
+}
+
+/*Muzik
+.lrfomimage {
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    opacity: 1;
+}
+
+.muzikcaption {
+  position: absolute;
+  top: 77%;
+  width: 50%;
+  left: 30px;
+}
+
+.muzikbackground {
+  position: relative;;
+  width: 90%
+}
+
+.muzikcolor {
+  color: #00BFFF;
+  right: auto;
+  font-family: cursive;
+}
+
+/*.secondrow {
+  padding-top: 0px;
+}
+.paragraphleft {
+  color: black;
+  padding-top: 15px;
+  align-content: flex-start;
+}
+
+/li {
+  color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#basementpic {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  padding-top: 15px;
+}
+
+#belowpic {
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-family: cursive;
+}
+
+#playedby {
+  color: black;
+  text-align: center;
+}
+
+#center {
+  text-align: center;
+  margin-right: 10%;
+}

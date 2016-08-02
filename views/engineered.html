@@ -1,0 +1,52 @@
+<div class="container background" ng-controller="EngineeredController" id="box-search">
+  <h1>{{ title }}</h1>
+    <div class="lightimage text-center">
+      <img ng-src="{{ EngineeredLayout.lightimage }}" alt="" class="img-responsive">
+      <div class="caption">
+        <h4 class="textcolor"> {{ EngineeredLayout.text }} </h4>
+      </div>
+    </div>
+</div>
+
+<!--Second Division-->
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row etextcolor">
+      <div class="col-md-3" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
+        <h4>Computer Science</h4>
+        <img src="img/engineered/binary.jpg" class="binarysizing">
+        <p class="ecolumncolor" ng-show="hoverEdit" class="animate-show"><span style="color: yellow;">VCU </span>Post Baccalaureate in Computer Science (Current)<br>
+          Proficent in MEAN Stack<br>
+          Python and Django<br>
+          Object Oriented Mathematical Modeling
+        </p>
+      </div>
+      <div class="col-md-3" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
+        <h4>Mechanical Engineer</h4>
+        <img src="img/engineered/bikeblueprint.jpg" class="bikelayoutsizing">
+        <p class="ecolumncolor" ng-show="hoverEdit" class="animate-show"><span style="color: yellow;">VCU </span>Bachelor of Science in Mechanical Engineering<br>
+          Graduated with Honors<br>
+          Mechanical Design<br>
+          AutoCad and Solidworks
+        </p>
+      </div>
+      <div class="col-md-3" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
+        <h4>Occupation</h4>
+        <img src="img/engineered/timeclock.jpg" class="timeclocksizing">
+        <p class="ecolumncolor" ng-show="hoverEdit" class="animate-show"><span style="color: orange;">Trane </span>Applications Engineer<br>
+          Coordinate Design<br>
+          Performance Analysis<br>
+          Project Management<br>
+          Technical Troubleshooting
+        </p>
+      </div>
+      <div class="col-md-3" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
+        <h4>Architectural Sheet Metal</h4>
+        <img src="img/engineered/patina.jpg" class="patina">
+        <p class="ecolumncolor" ng-show="hoverEdit" class="animate-show"><span style="color: blue;">Owner </span><br>
+          Bid and Layout<br>
+          Fabrication<br>
+          Installation<br>
+        </p>
+      </div>
+  </div>
