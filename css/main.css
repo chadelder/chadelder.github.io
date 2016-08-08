@@ -12,7 +12,7 @@
 
 .background h1 {
   text-align: center;
-  color: dimgray;
+  color: #393939;
   font-family: optima;
 }
 
@@ -22,6 +22,7 @@
   margin-right: auto;
   max-width: 100%;
   width: 40%;
+  border: 5px solid black;
 }
 
 .row {
@@ -127,7 +128,7 @@ div p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 70%;
     opacity: 0.9;
 }
 
